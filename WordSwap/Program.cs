@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Text;
 
 namespace WordSwap
@@ -21,6 +20,8 @@ namespace WordSwap
 
             int userOption;
             bool colseClose = false;
+
+            //Main loop
             while (!colseClose)
             {
                 //Super smoll and cute menu
@@ -32,9 +33,6 @@ namespace WordSwap
                 Console.WriteLine("3. cos 3");
                 Console.WriteLine("4. cos 4");
                 Console.WriteLine("5. Wypierdlaj (Exit)");
-
-                //Program main loop
-
                 Console.Write("> ");
                 string input = Console.ReadLine();
 
